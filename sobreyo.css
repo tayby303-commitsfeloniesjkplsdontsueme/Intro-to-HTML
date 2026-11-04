@@ -1,21 +1,27 @@
 html,
 body,
 * {
-    font-size:20px;
+    font-size:10px;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-div{
-    width: 30px;
-    height: 55px;
-    margin: 2.5px 5px;
-    background-color: darkgoldenrod;
-h1{
-    color: #009574;
-    font-family: #2458FE;
+.hero {
+  font-family: 'Copperplate', 'Copperplate Gothic Light',sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: white;
+  background-image:
+    linear-gradient(#680c07), rgba(4, 70, 115, 0.8),
+    url("optimus\ prim.webp");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
-}
-body{
-    background-color: #04f932;
+.hero-content {
+  width: 85rem;
+  padding: 2rem
 }
